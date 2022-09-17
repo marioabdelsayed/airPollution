@@ -1,5 +1,6 @@
-#takes a directory containing data files, the pollutant to like
+#takes a directory containing data files, the pollutant to 
 #calculate the mean for and the numeric id of the file(s)
+#containing the pollution information
 pollutantmean <- function (directory, pollutant, id= 1:332){
   #set the working directory to the files
   setwd(directory)
