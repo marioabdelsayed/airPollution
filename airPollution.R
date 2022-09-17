@@ -91,7 +91,7 @@ corr <- function(directory, threshold = 0){
     }
     #read the file
     fileContent <- read.csv(fileName)
-    #for every row, get the nitrate and sulate values 
+    #for every row, get the nitrate and sulfat values 
     for (rowNumber in 1:nrow(fileContent)){
       if(!any(is.na(fileContent[rowNumber,]))){
         nitrate <- append(nitrate,fileContent[rowNumber,][["nitrate"]])
